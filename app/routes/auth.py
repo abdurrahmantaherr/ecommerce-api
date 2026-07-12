@@ -80,7 +80,7 @@ def verify():
 
     return jsonify({
         "access_token": access_token ,
-        "refresh token": refresh_token
+        "refresh_token": refresh_token
     }), 201
 
 refresh_bp = Blueprint("refresh", __name__)
