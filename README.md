@@ -282,3 +282,13 @@ LinkedIn
 ## License
 
 This project is developed for educational and portfolio purposes.
+## API Testing
+
+This project includes a Postman collection.
+
+Files:
+
+- Ecommerce_API.postman_collection.json
+- Local_Development.postman_environment.json
+
+Import both into Postman and use the Login request to generate JWT tokens before testing protected endpoints.
