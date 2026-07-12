@@ -30,9 +30,6 @@ def create_app():
     app.register_blueprint(profile_bp)
     app.register_blueprint(refresh_bp)
 
-
-
-  
     return app
 
 
